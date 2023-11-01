@@ -1,0 +1,37 @@
+
+Em xin gửi phụ huynh nhận xét về tình hình học tập của lớp Web Advance trong buổi khai giảng:
+Thời gian: 19h-21h Chủ nhật - 29/10/2023
+Sĩ số: 6/6
+
+Nội dung buổi học:
+- Ôn tập các kiến thức về biến và câu lệnh điều kiện.
+- Giới thiệu cách sử dụng vòng lặp for, while, do-while
+
+Nhận xét quá trình học tập:
+Đức Nhân: Bạn vào lớp đúng giờ, hợp tác tốt với giáo viên để xây dựng nội dung bài học. Trong giờ, bạn tập trung và chú ý nghe giảng.
+Quang Huy: Bạn đến lớp đúng giờ, tập trung theo bài giảng của thầy và thực hành tương đối tốt.
+Gia Bình: Bạn tập trung trong giờ học, tương tác tốt với giáo viên và trả lời được những bài tập thầy mời giải đáp.
+Thảo Quyên: Bạn tập trung trong giờ, thực hiện tốt các bài tập được hỏi.
+Thành Đạt: Bạn đến lớp đúng giờ, chú ý nghe giảng và thực hành tương đối tốt.
+Việt Anh: Bạn tương đối tập trung trong giờ học, xây dựng bài học tốt và tương tác với giáo viên cũng như các bạn học khác khá tốt.
+
+Bài tập: Em đã gửi trong nhóm học viên, hạn hoàn thiện và nộp là tối thứ 7 trước ngày học tiếp theo. Kính nhờ phụ huynh nhắc nhở!
+
+Em cám ơn anh/chị phụ huynh đã đọc nhận xét này. Chúc anh chị một buổi tối vui vẻ!
+
+
+Bài tập Tuần 1:
+- Xem lại các kiến thức về biến, cách khai báo và gán giá trị cho biến
+- Xem lại các kiến thức về câu lệnh điều kiện if, if - else if, if - else và các vòng lặp đã được giới thiệu để giải bài tập sau:
+   + Tạo một biến 'number' với giá trị nguyên dương bất kỳ
+   + EX1: In ra màn hình console các số nguyên từ 0 đến number (0, 1, 2, ...)
+   + EX2: In ra màn hình console các số chẵn từ 0 đến number (0, 2, 4, ...)
+   + EX3: In ra màn hình console các số lẻ từ 0 đến number (1, 3, 5, ...)
+   + EX4: In ra màn hình console các số chia hết cho 3 từ 0 đến number (0, 3, 6, ...)
+   + EX5: In ra màn hình console các số chia hết cho 3 nhưng không chia hết cho 6 từ 0 đến number (0, 3, 9, 15, ...)
+
+
+
+
+
+
