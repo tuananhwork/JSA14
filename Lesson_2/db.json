@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "HTML - CSS",
+      "description": "Lập trình web cho người mới bắt đầu."
+    },
+    {
+      "id": 2,
+      "name": "Javascript Basic",
+      "description": "Lập trình web cho người mới bắt đầu."
+    },
+    {
+      "id": 3,
+      "name": "Javascript Advance",
+      "description": "Lập trình web cho người mới bắt đầu."
+    }
+  ]
+}

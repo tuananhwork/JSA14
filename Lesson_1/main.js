@@ -1,9 +1,33 @@
-// Ví dụ EX2
+// Biến
 
-let number = 13;
+// let x = 21;
+// console.log(x);
 
-for (let i = 0; i <= number; i++) {
-  if (i % 2 == 0) {
-    console.log(i);
-  }
+// Câu lệnh điều kiện if
+
+// let x = 6;
+// if (x > 5) {
+//   console.log("Test");
+// }
+
+// Vòng lặp: for, while, do-while
+
+// for
+for (let i = 0; i < 5; i++) {
+  console.log(i);
 }
+
+// while
+let a = 0;
+while (a < 5) {
+  console.log(a);
+  a++;
+}
+
+// Do - while
+let i = 10;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 10);

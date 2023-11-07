@@ -1,27 +1,21 @@
-// Lấy tham chiếu đến danh sách UL trên trang HTML
-const itemList = document.getElementById("item-list");
+const appElement = document.getElementById("app");
 
-// Thực hiện yêu cầu fetch để tải tệp JSON từ máy chủ
-fetch("./data.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error("Lỗi mạng");
-    }
-    console.log();
-    return response.json();
+let courseApi = "http://localhost:3000/courses";
+
+fetch(courseApi)
+  .then(function (res) {
+    return res.json();
   })
-  .then((data) => {
-    // Lặp qua danh sách mặt hàng và hiển thị thông tin trên trang
-    data.items.forEach((item) => {
-      const listItem = document.createElement("li");
-      listItem.innerHTML = `
-                <img src="${item.image}" alt="${item.name}">
-                <h2>${item.name}</h2>
-                <p>Giá: $${item.price}</p>
-            `;
-      itemList.appendChild(listItem);
+  .then(function (courses) {
+    htmls = courses.map(function (course) {
+      console.log(course);
+      return `
+        <h2 class='course-name'>${course.name}</h2>
+        <p class='course-desc'>${course.description}</p>
+      `;
     });
+    appElement.innerHTML = htmls.join("");
   })
-  .catch((error) => {
-    console.error(error);
+  .catch(function () {
+    document.write("Error!");
   });
